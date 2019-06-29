@@ -4,4 +4,8 @@ class App < Sinatra::Base
   get '/' do
     erb :index
   end
+
+  get '/puppy' do 
+    erb :puppy
+  end
 end
